@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main ()
+int main()
 {
     int t;
     cin >> t;
@@ -9,7 +9,7 @@ int main ()
     {
         int n;
         cin >> n;
-        long long sum = (long long) ((long long)(1+n)*n)/2;
+        long long sum = (long long)((long long)(1 + n) * n) / 2;
         cout << sum << endl;
     }
 }

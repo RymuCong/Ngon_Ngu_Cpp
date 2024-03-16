@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main ()
+int main()
 {
     int t;
     cin >> t;
@@ -9,7 +9,7 @@ int main ()
     {
         char n;
         cin >> n;
-        if ((int) n >= 97)
+        if ((int)n >= 97)
         {
             n -= 32;
             cout << n << endl;
@@ -19,6 +19,5 @@ int main ()
             n += 32;
             cout << n << endl;
         }
-            
     }
 }
