@@ -10,22 +10,17 @@ void phanTichSnt(int n) {
             n /= i;
         }
         if (dem != 0) {
-            cout << i << " " << dem << " ";
+            cout << i << " " << dem << endl;
         }
     }
     if (n > 1) {
-        cout << n << " " << 1 << " ";
+        cout << n << " " << 1 << endl;
     }
 }
-int main ()
-{
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        phanTichSnt(n);
-        cout << endl;
-    }
+
+int main() {
+    int n;
+    cin >> n;
+    phanTichSnt(n);
+    return 0;
 }

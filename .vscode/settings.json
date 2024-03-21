@@ -21,7 +21,9 @@
         "streambuf": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
